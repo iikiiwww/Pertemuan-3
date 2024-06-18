@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>praktikum 3.3</title>
+    <style>
+        .flex_container {
+            display: flex;
+            background-color: dodgerblue;
+            /* flex-direction: column; */
+            justify-content: center;
+        }
+        
+        .flex_container>div {
+            background-color: #f1f1f1;
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Create a flex container</h1>
+    <div class="flex_container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+    <p>A flexible layout must have a parent element with the <em>display</em> property set to <em>flex</em>.</p>
+
+    <p>direct child element(s) of the flexible container automaticaly become flexible items.</p>
+</body>
+
+</html>
+
+<!-- QUIZ
+1. Jika pada class flex-container ditambahkan flex-direction: column; apa
+yang terjadi?
+Jawab : Maka kotak yang terdapat pada angka 1, 2, 3 akan memanjang ke samping
+2. Jika pada class flex-container ditambahkan justify-content: center; apa
+yang terjadi?
+Jawab : Maka kotak kotak sekaligus dengan angkanya itu akan berada di posisi tengah -->
